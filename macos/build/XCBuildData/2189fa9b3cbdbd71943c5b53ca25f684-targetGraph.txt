@@ -1,0 +1,13 @@
+Target dependency graph (5 targets)
+FMDB in Pods
+FlutterMacOS in Pods
+path_provider_macos in Pods, depends on:
+FlutterMacOS in Pods (explicit)
+sqflite in Pods, depends on:
+FMDB in Pods (explicit)
+FlutterMacOS in Pods (explicit)
+Pods-Runner in Pods, depends on:
+FMDB in Pods (explicit)
+FlutterMacOS in Pods (explicit)
+path_provider_macos in Pods (explicit)
+sqflite in Pods (explicit)

@@ -1,0 +1,63 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "93e3353fda788cbc0a97e7c4f4c24adfe5199a3f70555689be7018ee7f9f878d"
+    },
+    {
+      "guid" : "93e3353fda788cbc0a97e7c4f4c24adf9d8b2146a8145768218b852a9444a007"
+    },
+    {
+      "guid" : "93e3353fda788cbc0a97e7c4f4c24adf312b4bc59bbbe2c06c205bf4da6737f5"
+    },
+    {
+      "guid" : "93e3353fda788cbc0a97e7c4f4c24adf1373b3abfbb3cf79621c62e43ea4b317"
+    },
+    {
+      "guid" : "93e3353fda788cbc0a97e7c4f4c24adf3786431ce548989b846bbf1a7384f58e"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/java/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/java/Library/Developer/Xcode/DerivedData/Pods-ehrjzqhwsucqqmahzzhxyuxqklit/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/java/Library/Developer/Xcode/DerivedData/Pods-ehrjzqhwsucqqmahzzhxyuxqklit/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
