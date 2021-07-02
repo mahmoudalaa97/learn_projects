@@ -35,6 +35,9 @@ dependencies:
   # Responsive Framework adapts your UI to different screen sizes automatically. Create your UI once and have it display pixel perfect on mobile, tablet
   responsive_framework: ^0.1.2
 
+  # Draw SVG (and some Android VectorDrawable (XML)) files on a Flutter Widget.
+  flutter_svg: ^0.22.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -51,8 +54,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+     - assets/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
