@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:learn_projects/utils/colors.dart';
 
 class MyStyle {
   MyStyle._();
 
   static TextStyle textStyle(
           {required double fontSize,
-          required Color color,
+           Color color=MyColors.white,
           FontWeight? fontWeight = FontWeight.w600}) =>
-      TextStyle(fontSize: fontSize, color: color, fontWeight: fontWeight);
+      GoogleFonts.poppins(fontSize: fontSize, color: color, fontWeight: fontWeight);
 }

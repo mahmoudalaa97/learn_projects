@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learn_projects/ui/router/app_router.dart';
+import 'package:learn_projects/utils/colors.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 
 void main() {
@@ -12,8 +13,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '',
+      themeMode: ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColorLight: MyColors.white,
+        accentColor: MyColors.white,
+        primaryColor: MyColors.agateBlue,
+        inputDecorationTheme: InputDecorationTheme(
+          focusColor: MyColors.white
+        )
       ),
       builder: (context, child) => ResponsiveWrapper.builder(child,
           maxWidth: 1200,
