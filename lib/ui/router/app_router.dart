@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_projects/ui/screen/splash_screen.dart';
+import 'package:learn_projects/ui/screen/home_screen.dart';
 
 class AppRouter {
   const AppRouter._();
@@ -13,7 +13,7 @@ class AppRouter {
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(
-          builder: (_) => SplashScreen(),
+          builder: (_) => HomeScreen(),
         );
       default:
         throw ('Route not found!');
